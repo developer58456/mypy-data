@@ -544,9 +544,6 @@ def ones_like(a: Any, dtype: Any=None, order: str='K', subok: bool=True) -> ndar
 def zeros(shape: ShapeType, dtype: DtypeType=float, order: str='C') -> ndarray[Any]: ...
 def zeros_like(a: Any, dtype: Any=None, order: str='K', subok: bool=True) -> ndarray[Any]: ...
 
-# Specific values
-inf: float
-
 # Global array routines (incomplete)
 
 @overload
